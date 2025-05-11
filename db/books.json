@@ -1,0 +1,14 @@
+{
+  "book_id": {
+    "title": "string",
+    "author": "string",
+    "isbn": "string",
+    "borrow_transactions": [
+      {
+        "borrower_id": "string",
+        "borrow_date": "timestamp",
+        "return_date": "timestamp"
+      }
+    ]
+  }
+} 

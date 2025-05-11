@@ -1,0 +1,35 @@
+{
+  "student_id": {
+    "name": "string",
+    "contact_info": "string",
+    "major": "string",
+    "class_year": "number",
+    "enrollments": [
+      {
+        "course_id": "string",
+        "enrollment_date": "timestamp",
+        "status": "string",
+        "grade": "string"
+      }
+    ],
+    "fees": [
+      {
+        "amount": "number",
+        "fee_type": "string",
+        "payments": [
+          {
+            "amount_paid": "number",
+            "payment_date": "timestamp"
+          }
+        ]
+      }
+    ],
+    "feedback": [
+      {
+        "course_id": "string",
+        "feedback_text": "string",
+        "rating": "number"
+      }
+    ]
+  }
+} 

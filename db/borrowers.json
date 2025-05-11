@@ -1,0 +1,6 @@
+{
+  "borrower_id": {
+    "student_id": "string",
+    "name": "string"
+  }
+} 

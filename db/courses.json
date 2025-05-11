@@ -1,0 +1,15 @@
+{
+  "course_id": {
+    "name": "string",
+    "department": "string",
+    "instructor_id": "string",
+    "schedule": {
+      "time_slot": "string"
+    },
+    "sessions": [
+      {
+        "date_time": "timestamp"
+      }
+    ]
+  }
+} 

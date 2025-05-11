@@ -1,0 +1,23 @@
+users:
+  user_id:
+    type: integer
+    primary_key: true
+    auto_increment: true
+  name:
+    type: string
+    required: true
+  email:
+    type: string
+    required: true
+    unique: true
+  password:
+    type: string
+    required: true
+  role:
+    type: string
+    required: true
+    enum:
+      - admin
+      - student
+      - instructor
+      - staff 

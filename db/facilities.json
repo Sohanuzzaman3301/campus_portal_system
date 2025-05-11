@@ -1,0 +1,12 @@
+{
+  "facility_id": {
+    "facility_name": "string",
+    "is_available": "boolean",
+    "bookings": [
+      {
+        "student_id": "string",
+        "booking_date": "timestamp"
+      }
+    ]
+  }
+} 

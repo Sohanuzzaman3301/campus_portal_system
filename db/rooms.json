@@ -1,0 +1,11 @@
+{
+  "room_id": {
+    "room_number": "string",
+    "is_occupied": "boolean",
+    "residents": [
+      {
+        "student_id": "string"
+      }
+    ]
+  }
+} 

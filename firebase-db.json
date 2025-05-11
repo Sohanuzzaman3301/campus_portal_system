@@ -1,0 +1,115 @@
+{
+    "students": {
+        "student_id": {
+            "name": "string",
+            "contact_info": "string",
+            "major": "string",
+            "class_year": "number",
+            "enrollments": [
+                {
+                    "course_id": "string",
+                    "enrollment_date": "timestamp",
+                    "status": "string",
+                    "grade": "string"
+                }
+            ],
+            "fees": [
+                {
+                    "amount": "number",
+                    "fee_type": "string",
+                    "payments": [
+                        {
+                            "amount_paid": "number",
+                            "payment_date": "timestamp"
+                        }
+                    ]
+                }
+            ],
+            "feedback": [
+                {
+                    "course_id": "string",
+                    "feedback_text": "string",
+                    "rating": "number"
+                }
+            ]
+        }
+    },
+    "courses": {
+        "course_id": {
+            "name": "string",
+            "department": "string",
+            "instructor_id": "string",
+            "schedule": {
+                "time_slot": "string"
+            },
+            "sessions": [
+                {
+                    "date_time": "timestamp"
+                }
+            ]
+        }
+    },
+    "library": {
+        "books": {
+            "book_id": {
+                "title": "string",
+                "author": "string",
+                "isbn": "string",
+                "borrow_transactions": [
+                    {
+                        "borrower_id": "string",
+                        "borrow_date": "timestamp",
+                        "return_date": "timestamp"
+                    }
+                ]
+            }
+        },
+        "borrowers": {
+            "borrower_id": {
+                "student_id": "string",
+                "name": "string"
+            }
+        }
+    },
+    "facilities": {
+        "facility_id": {
+            "facility_name": "string",
+            "is_available": "boolean",
+            "bookings": [
+                {
+                    "student_id": "string",
+                    "booking_date": "timestamp"
+                }
+            ]
+        }
+    },
+    "events": {
+        "event_id": {
+            "name": "string",
+            "event_date": "timestamp",
+            "location": "string",
+            "registrations": [
+                {
+                    "student_id": "string"
+                }
+            ]
+        }
+    },
+    "instructors": {
+        "instructor_id": {
+            "name": "string",
+            "department": "string"
+        }
+    },
+    "rooms": {
+        "room_id": {
+            "room_number": "string",
+            "is_occupied": "boolean",
+            "residents": [
+                {
+                    "student_id": "string"
+                }
+            ]
+        }
+    }
+}

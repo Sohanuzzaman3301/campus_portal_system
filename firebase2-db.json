@@ -1,0 +1,115 @@
+{
+  "students": {
+    "student_id_1": {
+      "name": "John Doe",
+      "contact_info": "johndoe@example.com",
+      "major": "Computer Science",
+      "class_year": 2024,
+      "enrollments": [
+        {
+          "course_id": "CS101",
+          "enrollment_date": "2023-01-15T00:00:00Z",
+          "status": "active",
+          "grade": "A"
+        }
+      ],
+      "fees": [
+        {
+          "amount": 1500,
+          "fee_type": "tuition"
+        }
+      ],
+      "payments": [
+        {
+          "amount_paid": 1500,
+          "payment_date": "2023-01-20T00:00:00Z"
+        }
+      ],
+      "feedback": [
+        {
+          "course_id": "CS101",
+          "feedback_text": "Great course!",
+          "rating": 5
+        }
+      ]
+    }
+  },
+  "courses": {
+    "course_id_1": {
+      "name": "Introduction to Programming",
+      "department": "Computer Science",
+      "instructor_id": "instructor_id_1",
+      "schedule": {
+        "time_slot": "MWF 10:00-11:00"
+      },
+      "sessions": [
+        {
+          "date_time": "2023-02-01T10:00:00Z"
+        }
+      ]
+    }
+  },
+  "library": {
+    "books": {
+      "book_id_1": {
+        "title": "Data Structures and Algorithms",
+        "author": "Author Name",
+        "isbn": "978-3-16-148410-0",
+        "borrow_transactions": [
+          {
+            "borrower_id": "borrower_id_1",
+            "borrow_date": "2023-03-01T00:00:00Z",
+            "return_date": "2023-04-01T00:00:00Z"
+          }
+        ]
+      }
+    },
+    "borrowers": {
+      "borrower_id_1": {
+        "student_id": "student_id_1",
+        "name": "John Doe"
+      }
+    }
+  },
+  "facilities": {
+    "facility_id_1": {
+      "facility_name": "Gym",
+      "is_available": true,
+      "bookings": [
+        {
+          "student_id": "student_id_1",
+          "booking_date": "2023-05-10T00:00:00Z"
+        }
+      ]
+    }
+  },
+  "events": {
+    "event_id_1": {
+      "name": "Tech Talk",
+      "event_date": "2023-06-20T00:00:00Z",
+      "location": "Auditorium",
+      "registrations": [
+        {
+          "student_id": "student_id_1"
+        }
+      ]
+    }
+  },
+  "instructors": {
+    "instructor_id_1": {
+      "name": "Dr. Smith",
+      "department": "Computer Science"
+    }
+  },
+  "rooms": {
+    "room_id_1": {
+      "room_number": "101",
+      "is_occupied": false,
+      "residents": [
+        {
+          "student_id": "student_id_1"
+        }
+      ]
+    }
+  }
+}

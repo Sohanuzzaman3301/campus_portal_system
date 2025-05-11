@@ -1,0 +1,12 @@
+{
+  "event_id": {
+    "name": "string",
+    "event_date": "timestamp",
+    "location": "string",
+    "registrations": [
+      {
+        "student_id": "string"
+      }
+    ]
+  }
+} 

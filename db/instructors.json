@@ -1,0 +1,6 @@
+{
+  "instructor_id": {
+    "name": "string",
+    "department": "string"
+  }
+} 

@@ -41,3 +41,18 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Security: ignore credential and keystore files
+google-services.json
+**/GoogleService-Info.plist
+service-account*.json
+*.service-account.json
+key.properties
+**/*.jks
+**/*.keystore
+*.p12
+*.pem
+.env
+
+# Project specific
+dbms_report_files/

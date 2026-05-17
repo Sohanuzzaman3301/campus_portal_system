@@ -9,7 +9,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Android%20|%20iOS%20|%20Web%20|%20Desktop-blue?style=for-the-badge)](https://flutter.dev/)
-[![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=for-the-badge)](https://github.com/yourusername/campus_portal_system)
+[![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=for-the-badge)](https://github.com/Sohanuzzaman3301/campus_portal_system)
 
 **🚀 A Comprehensive Cross-Platform Campus Management Solution Built with Flutter & Firebase**
 
@@ -122,7 +122,7 @@ Campus Portal System is a modern, multiplatform application designed to streamli
 ### 🎨 Modern UI Design
 *Built with Material Design 3 principles, featuring smooth animations, responsive layouts, and intuitive navigation across all platforms*
 
-[🔗 **View Live Demo**](https://your-demo-link.com) | [📱 **Download APK**](https://github.com/yourusername/campus_portal_system/releases)
+[🔗 **View Live Demo**](https://your-demo-link.com) | [📱 **Download APK**](https://github.com/Sohanuzzaman3301/campus_portal_system/releases)
 
 </div>
 
@@ -167,7 +167,7 @@ Campus Portal System is a modern, multiplatform application designed to streamli
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/campus_portal_system.git
+git clone https://github.com/Sohanuzzaman3301/campus_portal_system.git
 cd campus_portal_system
 ```
 
@@ -294,7 +294,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Developer
 
-**[Your Name]**
+**Md Sohanuzzaman shanto**
 - GitHub: [@Sohanuzzaman3301](https://github.com/sohanuzzaman3301)
 - LinkedIn: [Md. Sohanuzzaman Shanto](https://linkedin.com/in/Sohanuzzaman3301)
 - Portfolio: [site](https://sohanuzzaman3301.github.io)
